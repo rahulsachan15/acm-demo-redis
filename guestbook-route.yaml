@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: guestbook
+spec:
+  host: guestbook.apps.primary-cluster.primary.com
+  port:
+    targetPort: 80
+  to:
+    kind: Service
+    name: guestbook
+    weight: 100
