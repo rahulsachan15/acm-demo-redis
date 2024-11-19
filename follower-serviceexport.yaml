@@ -1,0 +1,4 @@
+kind: ServiceExport
+metadata:
+  name: redis-follower
+  namespace: guestbook
