@@ -1,0 +1,4 @@
+resources:
+- leader-deployment.yaml
+- leader-service.yaml
+- leader-serviceexport.yaml
