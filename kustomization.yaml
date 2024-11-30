@@ -1,0 +1,4 @@
+resources:
+- follower-deployment.yaml
+- follower-service.yaml
+- follower-serviceexport.yaml
